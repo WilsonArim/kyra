@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4A90E2;
+  --secondary: #2C3E50;
+  --background: #0B0B2B;
+}
+
+/* Tema claro (padrão) */
+[data-theme='light'] {
+  --background: transparent;
+  --text: #333333;
+  --card: rgba(255, 255, 255, 0.8);
+  --border: rgba(224, 224, 224, 0.5);
+  --overlay: rgba(255, 255, 255, 0);
+}
+
+/* Tema escuro */
+[data-theme='dark'] {
+  --background: transparent;
+  --text: #FFFFFF;
+  --card: rgba(30, 30, 30, 0.8);
+  --border: rgba(51, 51, 51, 0.5);
+  --overlay: rgba(0, 0, 0, 0.6);
+}
+
+/* Estilos base */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--text);
+  transition: all 0.3s ease;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* Imagem de fundo fixa */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+/* Overlay para tema */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--overlay);
+  transition: background-color 0.3s ease;
+  z-index: -1;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Classes de utilidade para animações */
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+/* Transições suaves */
+.transition-all {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hover effects */
+.hover-scale {
+  transition: transform 0.2s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.02);
+}
+
+/* Cards e elementos interativos */
+.card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Botões */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+/* Loading states */
+.loading {
+  animation: pulse 1.5s infinite;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+/* Sombras de texto */
+.text-shadow-lg {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow-md {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+@layer base {
+  body {
+    @apply bg-[#0B0B2B] text-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-4 py-2 rounded-lg hover:opacity-90 transition-opacity;
+  }
+  
+  .card {
+    @apply bg-card p-6 rounded-lg shadow-lg backdrop-blur-sm;
+  }
+
+  .nav-link {
+    @apply text-white hover:text-primary transition-colors uppercase font-medium;
+  }
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--primary);
+  }
+
+  .text-secondary {
+    color: var(--secondary);
+  }
+
+  .bg-primary {
+    background-color: var(--primary);
+  }
+
+  .bg-secondary {
+    background-color: var(--secondary);
+  }
+
+  .font-size-sm {
+    font-size: 14px !important;
+  }
+  .font-size-md {
+    font-size: 16px !important;
+  }
+  .font-size-lg {
+    font-size: 20px !important;
+  }
+} 
