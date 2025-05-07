@@ -97,7 +97,7 @@ export default function Home() {
             <img src="/images/coingecko.png" alt="Coingecko" className="w-56 h-24 object-contain rounded-lg shadow-lg transition-all" />
           </a>
           <a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer" className="block">
-            <img src="/images/coinMarketCap.jpg" alt="CoinMarketCap" className="w-56 h-24 object-contain rounded-lg shadow-lg transition-all" />
+            <img src="/images/coinmarketcap.jpg" alt="CoinMarketCap" className="w-56 h-24 object-contain rounded-lg shadow-lg transition-all" />
           </a>
           <a href="https://dexscreener.com/" target="_blank" rel="noopener noreferrer" className="block">
             <img src="/images/dexscreener.jpg" alt="DexScreener" className="w-56 h-24 object-contain rounded-lg shadow-lg transition-all" />
@@ -121,7 +121,7 @@ export default function Home() {
             <img src="/images/coingecko.png" alt="Coingecko" className="w-56 h-24 object-contain rounded-lg shadow-lg transition-all" />
           </a>
           <a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer" className="block">
-            <img src="/images/coinMarketCap.jpg" alt="CoinMarketCap" className="w-56 h-24 object-contain rounded-lg shadow-lg transition-all" />
+            <img src="/images/coinmarketcap.jpg" alt="CoinMarketCap" className="w-56 h-24 object-contain rounded-lg shadow-lg transition-all" />
           </a>
           <a href="https://dexscreener.com/" target="_blank" rel="noopener noreferrer" className="block">
             <img src="/images/dexscreener.jpg" alt="DexScreener" className="w-56 h-24 object-contain rounded-lg shadow-lg transition-all" />
