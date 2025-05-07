@@ -1,7 +1,7 @@
 fimport React from 'react';
 import Layout from '../components/Layout';
 
-export default function Referencias() {
+export default function referencias() {
   return (
     <Layout>
       <div className="flex flex-col items-center py-12 min-h-screen">
