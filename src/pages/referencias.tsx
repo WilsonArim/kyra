@@ -1,4 +1,4 @@
-import React from 'react';
+fimport React from 'react';
 import Layout from '../components/Layout';
 
 export default function Referencias() {
@@ -13,7 +13,7 @@ export default function Referencias() {
             {/* Bruno Perini */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="flex flex-col items-center">
-                <img src="/images/Referências/bruno-perini.png" alt="Bruno Perini" className="w-32 h-32 object-cover rounded-full border-4 border-yellow-400" />
+                <img src="/images/referencias/bruno-perini.png" alt="Bruno Perini" className="w-32 h-32 object-cover rounded-full border-4 border-yellow-400" />
                 <div className="flex gap-4 mt-2">
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/instagram.png" alt="Instagram" className="w-8 h-8 object-contain" /></a>
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/x.png" alt="X" className="w-8 h-8 object-contain" /></a>
@@ -28,7 +28,7 @@ export default function Referencias() {
             {/* Caio Vicentino */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="flex flex-col items-center">
-                <img src="/images/Referências/caio-vicentino.png" alt="Caio Vicentino" className="w-32 h-32 object-cover rounded-full border-4 border-yellow-400" />
+                <img src="/images/referencias/caio-vicentino.png" alt="Caio Vicentino" className="w-32 h-32 object-cover rounded-full border-4 border-yellow-400" />
                 <div className="flex gap-4 mt-2">
                   <a href="https://instagram.com/caiovicentino" target="_blank" rel="noopener noreferrer"><img src="/images/icons/instagram.png" alt="Instagram" className="w-8 h-8 object-contain" /></a>
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/x.png" alt="X" className="w-8 h-8 object-contain" /></a>
@@ -43,7 +43,7 @@ export default function Referencias() {
             {/* Felipe Sant'Ana */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="flex flex-col items-center">
-                <img src="/images/Referências/felipe-Santana.jpg" alt="Felipe Sant'Ana" className="w-32 h-32 object-cover rounded-full border-4 border-yellow-400" />
+                <img src="/images/referencias/felipe-Santana.jpg" alt="Felipe Sant'Ana" className="w-32 h-32 object-cover rounded-full border-4 border-yellow-400" />
                 <div className="flex gap-4 mt-2">
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/instagram.png" alt="Instagram" className="w-8 h-8 object-contain" /></a>
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/x.png" alt="X" className="w-8 h-8 object-contain" /></a>
@@ -58,7 +58,7 @@ export default function Referencias() {
             {/* Rogério Menezes */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="flex flex-col items-center">
-                <img src="/images/Referências/rogerio-menezes.png" alt="Rogério Menezes" className="w-32 h-32 object-cover rounded-full border-4 border-yellow-400" />
+                <img src="/images/referencias/rogerio-menezes.png" alt="Rogério Menezes" className="w-32 h-32 object-cover rounded-full border-4 border-yellow-400" />
                 <div className="flex gap-4 mt-2">
                   <a href="https://instagram.com/rogerio_menezes" target="_blank" rel="noopener noreferrer"><img src="/images/icons/instagram.png" alt="Instagram" className="w-8 h-8 object-contain" /></a>
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/x.png" alt="X" className="w-8 h-8 object-contain" /></a>
@@ -73,7 +73,7 @@ export default function Referencias() {
             {/* Thiago Nigro */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="flex flex-col items-center">
-                <img src="/images/Referências/thiago-nigro.jpg" alt="Thiago Nigro" className="w-32 h-32 object-cover rounded-full border-4 border-yellow-400" />
+                <img src="/images/referencias/thiago-nigro.jpg" alt="Thiago Nigro" className="w-32 h-32 object-cover rounded-full border-4 border-yellow-400" />
                 <div className="flex gap-4 mt-2">
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/instagram.png" alt="Instagram" className="w-8 h-8 object-contain" /></a>
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/x.png" alt="X" className="w-8 h-8 object-contain" /></a>
@@ -88,7 +88,7 @@ export default function Referencias() {
             {/* Podcast Os Sócios */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="flex flex-col items-center">
-                <img src="/images/Referências/os-socios.png" alt="Podcast Os Sócios" className="w-32 h-32 object-contain rounded-full border-4 border-yellow-400 bg-white" />
+                <img src="/images/referencias/os-socios.png" alt="Podcast Os Sócios" className="w-32 h-32 object-contain rounded-full border-4 border-yellow-400 bg-white" />
                 <div className="flex gap-4 mt-2">
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/instagram.png" alt="Instagram" className="w-8 h-8 object-contain" /></a>
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/x.png" alt="X" className="w-8 h-8 object-contain" /></a>
@@ -103,7 +103,7 @@ export default function Referencias() {
             {/* Podcast Primo Rico */}
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="flex flex-col items-center">
-               <img src="/images/Referências/primocast.png" alt="Podcast Os Sócios" className="w-32 h-32 object-contain rounded-full border-4 border-yellow-400 bg-white" />
+               <img src="/images/referencias/primocast.png" alt="Podcast Os Sócios" className="w-32 h-32 object-contain rounded-full border-4 border-yellow-400 bg-white" />
                 <div className="flex gap-4 mt-2">
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/instagram.png" alt="Instagram" className="w-8 h-8 object-contain" /></a>
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/x.png" alt="X" className="w-8 h-8 object-contain" /></a>
@@ -122,7 +122,7 @@ export default function Referencias() {
           <div className="space-y-4">
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="flex flex-col items-center">
-                <img src="/images/Referências/viver-de-renda-cripto.jpg" alt="Viver de Renda Cripto Turma 7" className="w-32 h-32 object-contain rounded-full border-4 border-yellow-400 bg-white" />
+                <img src="/images/referencias/viver-de-renda-cripto.jpg" alt="Viver de Renda Cripto Turma 7" className="w-32 h-32 object-contain rounded-full border-4 border-yellow-400 bg-white" />
                 <div className="flex gap-4 mt-2">
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/instagram.png" alt="Instagram" className="w-8 h-8 object-contain" /></a>
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/x.png" alt="X" className="w-8 h-8 object-contain" /></a>
@@ -141,7 +141,7 @@ export default function Referencias() {
           <div className="space-y-4">
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="flex flex-col items-center">
-              <img src="/images/Referências/paradigma-education.jpg" alt="Podcast Os Sócios" className="w-32 h-32 object-contain rounded-full border-4 border-yellow-400 bg-white" />
+              <img src="/images/referencias/paradigma-education.jpg" alt="Podcast Os Sócios" className="w-32 h-32 object-contain rounded-full border-4 border-yellow-400 bg-white" />
                 <div className="flex gap-4 mt-2">
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/instagram.png" alt="Instagram" className="w-8 h-8 object-contain" /></a>
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/x.png" alt="X" className="w-8 h-8 object-contain" /></a>
@@ -155,7 +155,7 @@ export default function Referencias() {
             </div>
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="flex flex-col items-center">
-              <img src="/images/Referências/renda-cripto.png" alt="Podcast Os Sócios" className="w-32 h-32 object-contain rounded-full border-4 border-yellow-400 bg-white" />
+              <img src="/images/referencias/renda-cripto.png" alt="Podcast Os Sócios" className="w-32 h-32 object-contain rounded-full border-4 border-yellow-400 bg-white" />
                 <div className="flex gap-4 mt-2">
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/instagram.png" alt="Instagram" className="w-8 h-8 object-contain" /></a>
                   <a href="#" className="opacity-50 cursor-not-allowed"><img src="/images/icons/x.png" alt="X" className="w-8 h-8 object-contain" /></a>
